@@ -1,0 +1,15 @@
+Example of using LD_PRELOAD
+
+First run make:
+$ make
+
+Then try:
+$ ./main
+
+And then try:
+$ LD_PRELOAD=$PWD/puts.so ./main
+
+Sounds like fun on a bun!
+
+Note: The code is self-explanatory.
+Note: http://stackoverflow.com/questions/426230/what-is-the-ld-preload-trick
