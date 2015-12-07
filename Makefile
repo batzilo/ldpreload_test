@@ -1,12 +1,12 @@
-all : main puts.so
+all : main mylib.so
 
 main : main.c
 	$(CC) -o main main.c
 
-puts.so : puts.c
-	$(CC) -shared -fpic puts.c -o puts.so
+mylib.so : mylib.c
+	$(CC) -shared -fpic mylib.c -o mylib.so
 
 .PHONY : clean
 
 clean :
-	$(RM) main puts.so
+	$(RM) main mylib.so
