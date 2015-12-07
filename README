@@ -7,9 +7,9 @@ Then try:
 $ ./main
 
 And then try:
-$ LD_PRELOAD=$PWD/puts.so ./main
+$ LD_PRELOAD=$PWD/mylib.so ./main
 
 Sounds like fun on a bun!
 
-Note: The code is self-explanatory.
+Note: The code should be self-explanatory.
 Note: http://stackoverflow.com/questions/426230/what-is-the-ld-preload-trick
